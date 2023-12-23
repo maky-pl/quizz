@@ -1,0 +1,43 @@
+.quiz-container {
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .question {
+    font-size: 1.5em;
+    margin-bottom: 20px;
+  }
+  
+  .answers {
+    margin-bottom: 20px;
+  }
+  
+  button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+  }
+  
+  button.correct {
+    background-color: #4CAF50;
+  }
+  
+  button.wrong {
+    background-color: #f44336;
+  }
+  
+  .progress {
+    margin-bottom: 20px;
+  }
+  
+  .final-score {
+    font-size: 1.5em;
+    margin-top: 20px;
+  }
+  
+  .correct-answer {
+    color: green;
+    margin-top: 10px;
+  }
